@@ -46,3 +46,5 @@ Getting started
 
 Feel free to improve it by sending MR
 
+⌨️ Build with ❤️ by [HomeScript](https://github.com/homescriptone) 😊
+
