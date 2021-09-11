@@ -9,7 +9,7 @@ Maintainer: [Emmanuel ADEKPLOVI](https://github.com/manutheblacker)
 Installation
 ------------
 
-    npm install homescriptone/svelte-advanced-tables
+    npm install svelte-advanced-tables
 
 
 
