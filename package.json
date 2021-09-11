@@ -1,8 +1,9 @@
 {
-  "name": "svelte-datatables",
+  "name": "svelte-advanced-tables",
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
+  "version": "1.0.0",
   "scripts": {
     "build": "rollup -c",
     "prepublishOnly": "npm run build"
@@ -21,5 +22,7 @@
     "src",
     "dist"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "rollup-plugin-import-css": "^3.0.0"
+  }
 }

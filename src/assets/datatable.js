@@ -1820,3 +1820,5 @@
         2
     ]) (2)
 });
+
+export default simpleDatatables;

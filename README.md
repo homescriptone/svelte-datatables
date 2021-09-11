@@ -1,7 +1,7 @@
 
 # Svelte DataTables
 
-This repository bring DataTables into your Svelte or Svelte Frameworks
+This repository bring DataTable into your Svelte or Svelte Frameworks
 projects.
 
 Maintainer: [Emmanuel ADEKPLOVI](https://github.com/manutheblacker)
@@ -9,14 +9,14 @@ Maintainer: [Emmanuel ADEKPLOVI](https://github.com/manutheblacker)
 Installation
 ------------
 
-    npm install homescriptone/svelte-datatables
+    npm install homescriptone/svelte-advanced-tables
 
 
 
 Getting started
 ---------------
 
-    import Table from 'svelte-datatables'
+    import Table from 'svelte-advanced-tables'
     
     let data = [
             'rows' : [
