@@ -1,22 +1,48 @@
-# svelte-datatable-bootstrap-5
-A simple table using Datatable and Bootstrap 5
 
-You'll need to run yarn/npm install Bootstrap 5.
+# Svelte DataTables
 
-You'll need to import the svelte-datable.css and svelte-datable.js into the Table.svelte component file.
+This repository bring DataTables into your Svelte or Svelte Frameworks
+projects.
 
-Once done, you can import the component Table and then pass your data so it will display your table.
+Maintainer: [Emmanuel ADEKPLOVI](https://github.com/manutheblacker)
 
-Marks:
-The data must be like this :
+Installation
+------------
 
-<code>
-    let tableData = {
-        'rows' : [
+    npm install homescriptone/svelte-datatables
 
-        ],
-        'columns' : [
-            
-        ]
-    }
-</code>
+
+
+Getting started
+---------------
+
+    import Table from 'svelte-datatables'
+    
+    let data = [
+            'rows' : [
+                [
+                  'TOTAL',
+                  'Djim'
+                ]
+            ], 
+            'columns' : [
+                'Entreprise',
+                'First Name'
+            ],
+            'styles'  : [
+                'thead' : '',
+                'tbody' : ''
+            ],
+    ];
+    
+    //Call the component into your svelte page
+    
+    <Table /> //When no data are provided, it loads some default data
+    
+    <Table table_data="{data}" /> //Here is the way to add custom data
+  
+   
+## Contribution
+
+Feel free to improve it by sending MR
+
