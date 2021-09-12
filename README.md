@@ -31,7 +31,7 @@ After installing it, to use it, follow the steps below:
 
     import Table from 'svelte-advanced-tables'
     
-    let data = [
+    let data = {
             'rows' : [
                 [
                   'TOTAL',
@@ -46,7 +46,7 @@ After installing it, to use it, follow the steps below:
                 'thead' : '',
                 'tbody' : ''
             ],
-    ];
+    };
     
     //Call the component into your svelte page
     
