@@ -4,6 +4,7 @@
   "module": "dist/index.mjs",
   "main": "dist/index.js",
   "version": "1.0.3",
+  "license": "MIT",
   "scripts": {
     "build": "rollup -c",
     "prepublishOnly": "npm run build"
