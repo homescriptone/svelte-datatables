@@ -33,8 +33,5 @@
   "homepage": "https://github.com/homescriptone/svelte-datatables",
   "bugs": {
     "url": "https://github.com/homescriptone/svelte-datatables/issues/"
-  },
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
   }
 }
