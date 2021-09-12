@@ -1,4 +1,9 @@
 <script>
+    import './assets/datatable.css'
+    import simpleDatatables from './assets/datatable.js'
+
+    import {onMount} from 'svelte'
+    // The variable containing the data needed by the Table Component.
     export let table_data = {
         'rows' : [
             [
@@ -70,16 +75,17 @@
         'styles' : [],
     };
 
+    /**
+     * Generate random ID.
+     */
     const generate_id = (() =>{
         return '_' + Math.random().toString(36).substr(2, 9);
     });
-
-    import './assets/datatable.css'
-    import simpleDatatables from './assets/datatable.js'
-
-    import {onMount} from 'svelte'
+    // The table ID.
     let id = "datatable"+generate_id();
+
     onMount(()=>{
+      // When the page is mounted.
       var dataTableEl = document.getElementById(id);
       new simpleDatatables.DataTable(dataTableEl);
     });
